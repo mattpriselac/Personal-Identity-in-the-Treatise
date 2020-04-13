@@ -201,7 +201,7 @@ def sbnScoring(cite_in):
     total_weight_check = 0
     for pair in pre_normalized_list_of_para_weight_pairs:
         try:
-            final_list_of_para_weight_pairs.append((pair[0], pair[1]*normalizing_factor))
+            final_list_of_para_weight_pairs.append((pair[0], round(pair[1]*normalizing_factor,3)))
             total_weight_check += pair[1]*normalizing_factor
         except KeyError:
                print(page, "generated a Key Error when trying to find correspondign paragraphs")
@@ -277,7 +277,7 @@ def nortonScoring(cite_in):
     final_list = []
     total_paras = len(nortonFullExpander(cite_in))
     for para in nortonFullExpander(cite_in):
-        final_list.append((para, 1/total_paras))
+        final_list.append((para, round(1/total_paras,3)))
 
     return final_list
 
