@@ -46,5 +46,5 @@ for index in citation_level_data.index:
     para_level_data = para_level_data.append(citationExpander(citation_level_data.loc[index]), ignore_index = True)
 
 #finally, we'll output the data frame into a usable CSV file for easy import to Tableau
-para_level_data.to_csv('paragraph_level_citation data.csv')
+para_level_data.to_csv('paragraph_level_citation_data.csv')
 print('done')
