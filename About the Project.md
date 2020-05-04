@@ -4,7 +4,7 @@
 
 Hume published his *Treatise of Human Nature* in 1739. It’s an enormous text that covers an incredible range of philosophical topics. The text is divided into 3 books, each of which is divided into 3-4 parts, each of which contains 7-17 chapters of varying lengths [for our purposes, each paragraph in those chapters is also numbered]. The Treatise also has philosophically interesting material in its Appendix and Abstract which were written and added to the Treatise more than a year after its initial publication.
 
-The copy of the *Treatise* that I'm working with can be found in a TXT form [in this repository](./Full Treatise in HTML.txt). It was acquired from [davidhume.org](https://www.davidhume.org)
+The copy of the *Treatise* that I'm working with can be found in a TXT form [in this repository](./Full-Treatise-in-HTML.txt). It was acquired from [davidhume.org](https://www.davidhume.org)
 
 My aim in this project is to develop a tool that maps Hume’s Treatise by philosophical topic. To construct each map of a given topic, I want to use the scholarly literature produced in the last century or so which discusses Hume’s views on that topic. In order to use the scholarly literature, my plan is to look at the articles in that literature to see which parts of Hume’s texts are cited.
 
